@@ -16,3 +16,4 @@ from sklearn.svm import SVC
 # load dataset
 url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
 names = ['sepal-length', 'sepal_width', 'petal-length', 'petal_width', 'class']
+dataset = pandas.read_csv(url, names=names)
